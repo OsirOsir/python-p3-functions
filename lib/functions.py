@@ -2,16 +2,16 @@
 
 
 def greet_programmer():
-    print("Hello, programmer!")  # Add the exclamation mark
+    print("Hello, programmer!")  
 
 def greet(name):
-    print(f"Hello, {name}!")  # Add the exclamation mark
+    print(f"Hello, {name}!")  
 
 def greet_with_default(name="programmer"):
-    print(f"Hello, {name}!")  # Add the exclamation mark
+    print(f"Hello, {name}!")  
 
 def add(num1, num2):
-    return num1 + num2  # This function is correct as it is
+    return num1 + num2  
 
 def halve(number):
     if type(number) not in (int, float): 
